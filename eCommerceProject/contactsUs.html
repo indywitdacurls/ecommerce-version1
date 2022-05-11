@@ -1,7 +1,6 @@
-<!-- <!doctype html>
+ <!doctype html>
 <html lang="en">
-  <head>
-     <-- Required meta tags -->
+  <head> 
      <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -33,12 +32,12 @@
                         <li><a href="contactsUs.html">Contact Us</a></li>
                      </ul>
                  </nav>
-                <img src="images/cart.png" width="30px" height="=30px">
+                <img src="images/cart.png" width="30" height="30" alt="Shopping Cart">
             </div>
     </div>  
 
       <!-- Contact Form -->
-        <div class="container">
+        <section class="container">
             <form action="action_page.php">
 
              <h1>Connect with US!</h1>
@@ -50,11 +49,11 @@
              <label for="lname">Last Name</label>
              <input type="text" id="lname" name="lastname" placeholder="Your last name...">
 
-             <label for="number">Contact Number</label>
-             <input type="text" id="phonenumber" name="number" placeholder="Your contact number">
+             <label for="phonenumber">Contact Number</label>
+             <input type="text" id="phonenumber" name="number" placeholder="Your contact number...">
 
              <label for="email">Contact Email</label>
-             <input type="text" id="email" name="email" placeholder="Your e-mail address">
+             <input type="text" id="email" name="email" placeholder="Enter a valid e-mail address">
 
              <label for="subject">Subject</label>
              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
@@ -62,26 +61,32 @@
              <input type="submit" value="Submit">
 
             </form>
-        </div>
+        </section>
 
      <!-- Footer -->
-     <div class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="footer-col-1">
-                    <h3>Check us out on Social Media</h3>
-                </div>
-                <div class="footer-col-1">
-                    <a href="https://www.instagram.com" class="fa fa-instagram"></a>
-                </div>
-                <div class="footer-col-1">
-                    <a href="https://www.facebook.com" class="fa fa-facebook"></a>
-                </div> 
-                <div class="footer-col-1">
-                    <a href="https://www.twitter.com" class="fa fa-twitter"></a>
-                </div>                
-            </div>
+     <footer>
+        <div class="footer-text-col">
+            <h2 class="footer__title">
+                Check us out on Social Media!
+            </h2>
         </div>
-    </div>
+        <ul class="footer-list">
+            <li class="footer-item">
+                <a href="https://www.instagram.com">
+                    <i class="fa fa-instagram"></i>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://www.facebook.com">
+                    <i class="fa fa-facebook-square"></i>
+                </a>
+            </li>
+            <li class="footer-item">
+                <a href="https://www.squareup.com">
+                    <i class="fa fa-twitter-square"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
 </body>
 </html>

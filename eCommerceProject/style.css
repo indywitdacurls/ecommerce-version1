@@ -13,6 +13,7 @@
     left:0;
     animation: 20s slider infinite;
     width: 500%;
+
   }
 
   #slider figure img {
@@ -50,7 +51,7 @@
     }
   }
 
-navbar{
+.navbar{
     display: flex;
     align-items: center;
     padding: 20px;
@@ -176,9 +177,67 @@ input[type=submit]:hover{
     background-color: rgb(13,105,174);
 }
 
-.footer{
+/* footer {
     background: radial-gradient(#aeecef,#6d9dc5);
+    padding: 9px;
+    margin-bottom: 0px;
+    text-align: right;
+    margin-top: auto;
+    bottom: 0;
+    position: relative; 
+  }
+  
+  .footer-text-col {
+    width: 50%;
     display: flex;
+    justify-content: left;
+  }
+  .footer-list {
+    width: 50%;
+    display: flex;
+    justify-content: right;
     align-items: center;
-    padding: 0px;
-}
+    gap: 1rem;
+  }
+  
+  .footer-item {
+    display: inline-block;
+    
+  }
+  
+  .footer-item a{
+   font-size: 24px;
+  } */
+
+  footer {
+    background: radial-gradient(#aeecef,#6d9dc5);
+    padding: 9px;
+    margin-bottom: 0px;
+    text-align: right;
+    margin-top: auto;
+    bottom: 0;
+    position: relative; 
+  }
+  
+  .footer-text-col {
+    width: 50%;
+    display: flex;
+    justify-content: left;
+  }
+  .footer-list {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+  }
+  
+  .footer-item {
+    display: inline-block;
+    
+  }
+  
+  .footer-item a{
+   font-size: 24px;
+  }
+
